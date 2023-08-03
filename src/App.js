@@ -1,31 +1,31 @@
-import React from 'react';
-import './style.css';
-import OfferBox from './OfferBox';
-import EmployeeRow from './EmployeeRow';
+import React from "react";
+import "./style.css";
+import OfferBox from "./OfferBox";
+import EmployeeRow from "./EmployeeRow";
 
 const offers = [
-  { title: 'Usługa 1', isNew: true },
-  { title: 'Usługa 2', isNew: false },
-  { title: 'Usługa 3', isNew: false },
-  { title: 'Usługa 4', isNew: false },
-  { title: 'Usługa 5', isNew: false },
-  { title: 'Usługa 6', isNew: false },
+  { title: "Usługa 1", isNew: true },
+  { title: "Usługa 2", isNew: false },
+  { title: "Usługa 3", isNew: false },
+  { title: "Usługa 4", isNew: false },
+  { title: "Usługa 5", isNew: false },
+  { title: "Usługa 6", isNew: false },
 ];
-
+// test
 const employees = [
   {
-    firstName: 'Imię1',
-    lastName: 'Nazwisko1',
-    position: 'Stanowisko1',
-    description: 'Opis pracownika 1',
-    photoUrl: 'expert.jpg',
+    firstName: "Imię1",
+    lastName: "Nazwisko1",
+    position: "Stanowisko1",
+    description: "Opis pracownika 1",
+    photoUrl: "expert.jpg",
   },
   {
-    firstName: 'Imię2',
-    lastName: 'Nazwisko2',
-    position: 'Stanowisko2',
-    description: 'Opis pracownika 2',
-    photoUrl: 'expert.jpg',
+    firstName: "Imię2",
+    lastName: "Nazwisko2",
+    position: "Stanowisko2",
+    description: "Opis pracownika 2",
+    photoUrl: "expert.jpg",
   },
 ];
 
@@ -43,7 +43,7 @@ const App = () => {
             </li>
             <li>
               <a href="#offer" className="button-nav">
-                Oferta{' '}
+                Oferta{" "}
               </a>
             </li>
             <li className="disabled-button">kontakt</li>
@@ -67,12 +67,10 @@ const App = () => {
       <section className="specialist-section" id="about-us">
         <div className="boss-container">
           <h2 className="title-section-specialist">Nasi specjaliści</h2>
-          
-            
-            {employees.map((employee, index) => (
-              <EmployeeRow key={index} {...employee} />
-            ))}
-          
+
+          {employees.map((employee, index) => (
+            <EmployeeRow key={index} {...employee} />
+          ))}
         </div>
       </section>
       <main className="size-color-service-section">
@@ -96,11 +94,11 @@ const App = () => {
             <div className="direction-icons">
               <i
                 className="fa-brands fa-instagram fa-2xl"
-                style={{ color: '#ffffff' }}
+                style={{ color: "#ffffff" }}
               ></i>
               <i
                 className="fa-brands fa-square-facebook fa-2xl"
-                style={{ color: '#ffffff' }}
+                style={{ color: "#ffffff" }}
               ></i>
             </div>
           </div>
