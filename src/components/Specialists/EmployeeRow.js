@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 const EmployeeRow = ({ firstName, lastName, position, description, photoUrl }) => {
   return (

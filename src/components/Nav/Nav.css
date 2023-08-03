@@ -1,0 +1,42 @@
+.size-color {
+    background-color: #4e4e4e;
+    width: 100%;
+    height: 50px;
+    color: #ffffff;
+    position: sticky;
+    top: 0px;
+    z-index: 9999;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    height: 100%;
+  }
+  
+  .my-company-element {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .nav-list {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 46px;
+    display: none;
+  }
+  .button-nav {
+    cursor: pointer;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .disabled-button {
+    cursor: not-allowed;
+  }

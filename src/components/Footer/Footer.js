@@ -1,6 +1,8 @@
-import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faInstagram, faFacebookSquare } from "@fortawesome/free-brands-svg-icons";
+import {
+  faInstagram,
+  faFacebookSquare,
+} from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
   return (
@@ -13,8 +15,8 @@ const Footer = () => {
             </p>
           </div>
           <div className="direction-icons">
-            <FontAwesomeIcon icon={faInstagram} className="fa-2x" style={{ color: "#ffffff" }} />
-            <FontAwesomeIcon icon={faFacebookSquare} className="fa-2x" style={{ color: "#ffffff" }} />
+            <FontAwesomeIcon icon={faInstagram} className="fa-brands" />
+            <FontAwesomeIcon icon={faFacebookSquare} className="fa-brands" />
           </div>
         </div>
       </div>
