@@ -1,64 +1,99 @@
 .size-header {
-    width: 100%;
-    height: 100vh;
-    position: relative;
-  }
-  header img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  .container-position {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.15);
-  }
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+header img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.container-position {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+.position-text {
+  height: 100%;
+  margin: 0 auto;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-direction: column;
+  color: #ffffff;
+}
+
+.text-quality-product {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  width: 76%;
+}
+.text-line {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.button-ofert {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  width: 150px;
+  height: 40px;
+  border: 3px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 1s linear;
+  text-decoration: none;
+  color: white;
+}
+.button-ofert:hover {
+  border: 3px solid white;
+  background-color: white;
+  color: black;
+}
+@media (min-width: 768px) {
+  .boss-container,
   .position-text {
-    height: 100%;
-    margin: 0 auto;
-    width: 95%;
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    flex-direction: column;
-    color: #ffffff;
+    width: 90%;
   }
-  
   .text-quality-product {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    width: 76%;
+    width: 69%;
+    font-size: 34px;
   }
   .text-line {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 21px;
-  }
-  
-  .button-ofert {
-    font-style: normal;
-    font-weight: 700;
     font-size: 18px;
-    line-height: 21px;
-    width: 150px;
-    height: 40px;
-    border: 3px solid white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    transition: all 1s linear;
-    text-decoration: none;
-    color: white;
+  }
+  .button-ofert {
+    font-size: 18px;
+    width: 160px;
+    height: 45px;
   }
   .button-ofert:hover {
     border: 3px solid white;
     background-color: white;
     color: black;
   }
+}
+
+@media (min-width: 1024px) {
+  .boss-container,
+  .position-text {
+    width: 960px;
+  }
+
+  .text-quality-product {
+    width: 60%;
+    font-size: 36px;
+  }
+}

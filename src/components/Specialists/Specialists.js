@@ -1,6 +1,6 @@
-import React from "react";
 import EmployeeRow from "./EmployeeRow";
 import employees from "../../data/Employees";
+import "./Specialists.css";
 const Specialists = () => {
   return (
     <section className="specialist-section" id="about-us">

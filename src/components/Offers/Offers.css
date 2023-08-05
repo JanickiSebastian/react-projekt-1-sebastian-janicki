@@ -45,4 +45,33 @@
     border-radius: 50%;
     background-color: #e07a64;
   }
+  @media (min-width: 768px) {
+    .boss-container,
+    .position-text {
+      width: 90%;
+    }
+    .tite-service-section {
+      font-size: 32px;
+    }
+    
+  }
   
+  @media (min-width: 1024px) {
+    .boss-container,
+    .position-text {
+      width: 960px;
+    }
+    .box {
+      width: 290px;
+      height: 290px;
+      font-size: 24px;
+      transition: all linear 0.5s;
+    }
+    .box:hover {
+      transform: scale(1.05);
+    }
+    .tite-service-section {
+      font-size: 36px;
+      justify-content: left;
+    }
+  }

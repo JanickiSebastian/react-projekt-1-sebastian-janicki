@@ -1,8 +1,6 @@
-import React from "react";
 import OfferBox from "./OfferBox";
 import offers from "../../data/Offers";
-
-
+import "./Offers.css";
 const Offers = () => {
   return (
     <main className="size-color-service-section">

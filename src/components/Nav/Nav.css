@@ -40,3 +40,23 @@
   .disabled-button {
     cursor: not-allowed;
   }
+  @media (min-width: 768px) {
+    .boss-container,
+    .position-text {
+      width: 90%;
+    }
+    .nav-list {
+      display: flex;
+    }
+    
+  }
+  
+  @media (min-width: 1024px) {
+    .boss-container,
+    .position-text {
+      width: 960px;
+    }
+  
+    
+  }
+  

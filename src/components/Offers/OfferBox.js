@@ -1,4 +1,3 @@
-
 const OfferBox = ({ isNew, title }) => {
   return (
     <div className="box">
